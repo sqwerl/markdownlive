@@ -16,10 +16,10 @@
 		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		9958D88F14119A22004F7DF1 /* RKSyntaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958D88E14119A22004F7DF1 /* RKSyntaxView.m */; };
-		9958D89214119A8D004F7DF1 /* NSColor+HexRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958D89114119A8D004F7DF1 /* NSColor+HexRGB.m */; };
 		9958D89514119B85004F7DF1 /* PageScheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9958D89314119B85004F7DF1 /* PageScheme.plist */; };
 		9958D89614119B85004F7DF1 /* PageSyntax.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9958D89414119B85004F7DF1 /* PageSyntax.plist */; };
+		998B03911430652400837F0F /* RKSyntaxView.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 99DFDFAE1427D4BA0076C09C /* RKSyntaxView.framework */; };
+		99DFDFAF1427D56C0076C09C /* RKSyntaxView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DFDFAE1427D4BA0076C09C /* RKSyntaxView.framework */; };
 		ABE8DDF913CA38B5005852B5 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 226936E612E7CDC500171322 /* styles.css */; };
 		ABECD8C713C8B90E00B77CFD /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 795F6C4E105D6EC400D1F90A /* mkdio.c */; };
 		ABECD8C813C8B92900B77CFD /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 795F6C50105D6ECE00D1F90A /* markdown.c */; };
@@ -50,6 +50,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		99DFDFAD1427D4BA0076C09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DFDFA61427D4BA0076C09C /* RKSyntaxView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 990520011427382200E8B8EC;
+			remoteInfo = RKSyntaxView;
+		};
+		99DFDFB01427D5C10076C09C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DFDFA61427D4BA0076C09C /* RKSyntaxView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 990520001427382200E8B8EC;
+			remoteInfo = RKSyntaxView;
+		};
 		ABECD8D713C8B98D00B77CFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
@@ -66,6 +80,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				998B03911430652400837F0F /* RKSyntaxView.framework in Copy Frameworks */,
 				ABECD8DE13C8B9C400B77CFD /* ORCDiscount.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
@@ -111,12 +126,9 @@
 		795F6DB9105D75D300D1F90A /* mkdioWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mkdioWrapper.h; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* MarkdownLive-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MarkdownLive-Info.plist"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* MarkdownLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9958D88D14119A22004F7DF1 /* RKSyntaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSyntaxView.h; sourceTree = "<group>"; };
-		9958D88E14119A22004F7DF1 /* RKSyntaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSyntaxView.m; sourceTree = "<group>"; };
-		9958D89014119A8D004F7DF1 /* NSColor+HexRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+HexRGB.h"; sourceTree = "<group>"; };
-		9958D89114119A8D004F7DF1 /* NSColor+HexRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+HexRGB.m"; sourceTree = "<group>"; };
 		9958D89314119B85004F7DF1 /* PageScheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PageScheme.plist; sourceTree = "<group>"; };
 		9958D89414119B85004F7DF1 /* PageSyntax.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PageSyntax.plist; sourceTree = "<group>"; };
+		99DFDFA61427D4BA0076C09C /* RKSyntaxView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RKSyntaxView.xcodeproj; path = "../rk-syntax-view/RKSyntaxView.xcodeproj"; sourceTree = "<group>"; };
 		ABCE3DDF13C8DFFF00DF3CD0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		ABECD8C213C8B8CA00B77CFD /* ORCDiscount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORCDiscount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABECD8C313C8B8CA00B77CFD /* ORCDiscount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORCDiscount-Info.plist"; sourceTree = "<group>"; };
@@ -136,6 +148,7 @@
 			files = (
 				ABECD9ED13C8DC2B00B77CFD /* ORCDiscount.framework in Frameworks */,
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				99DFDFAF1427D56C0076C09C /* RKSyntaxView.framework in Frameworks */,
 				795F6CCD105D741100D1F90A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,12 +302,17 @@
 		9958D88B14119A18004F7DF1 /* RK */ = {
 			isa = PBXGroup;
 			children = (
-				9958D89014119A8D004F7DF1 /* NSColor+HexRGB.h */,
-				9958D89114119A8D004F7DF1 /* NSColor+HexRGB.m */,
-				9958D88D14119A22004F7DF1 /* RKSyntaxView.h */,
-				9958D88E14119A22004F7DF1 /* RKSyntaxView.m */,
+				99DFDFA61427D4BA0076C09C /* RKSyntaxView.xcodeproj */,
 			);
 			name = RK;
+			sourceTree = "<group>";
+		};
+		99DFDFA71427D4BA0076C09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DFDFAE1427D4BA0076C09C /* RKSyntaxView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		ABECD96113C8D1C200B77CFD /* ORCDiscount */ = {
@@ -336,6 +354,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				99DFDFB11427D5C10076C09C /* PBXTargetDependency */,
 				ABECD8D813C8B98D00B77CFD /* PBXTargetDependency */,
 			);
 			name = MarkdownLive;
@@ -379,6 +398,12 @@
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* MarkdownLive */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 99DFDFA71427D4BA0076C09C /* Products */;
+					ProjectRef = 99DFDFA61427D4BA0076C09C /* RKSyntaxView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D15AC270486D014006FF6A4 /* MarkdownLive */,
@@ -386,6 +411,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		99DFDFAE1427D4BA0076C09C /* RKSyntaxView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RKSyntaxView.framework;
+			remoteRef = 99DFDFAD1427D4BA0076C09C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D15AC2B0486D014006FF6A4 /* Resources */ = {
@@ -424,8 +459,6 @@
 				ABF75D7513CDEBBB00B5E7AB /* EditPaneTypesetter.m in Sources */,
 				ABF75D7613CDEBBB00B5E7AB /* PreferencesController.m in Sources */,
 				ABF75D7713CDEBBB00B5E7AB /* PreferencesManager.m in Sources */,
-				9958D88F14119A22004F7DF1 /* RKSyntaxView.m in Sources */,
-				9958D89214119A8D004F7DF1 /* NSColor+HexRGB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +486,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		99DFDFB11427D5C10076C09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RKSyntaxView;
+			targetProxy = 99DFDFB01427D5C10076C09C /* PBXContainerItemProxy */;
+		};
 		ABECD8D813C8B98D00B77CFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABECD8C113C8B8CA00B77CFD /* ORCDiscount */;

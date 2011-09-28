@@ -7,7 +7,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
-#import "RKSyntaxView.h"
+#import <RKSyntaxView/RKSyntaxView.h>
 
 @class EditPaneTextView;
 @class EditPaneLayoutManager;

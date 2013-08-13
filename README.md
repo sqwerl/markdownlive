@@ -1,6 +1,6 @@
 ## About my fork
 
-Adds beautiful syntax highlighting to MarkdownLive.
+Adds syntax highlighting to MarkdownLive.
 
 ![screenshot](https://github.com/vojto/markdownlive/raw/master/sshot.png)
 
